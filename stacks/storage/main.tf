@@ -8,5 +8,6 @@ resource "aws_s3_bucket" "demo" {
   tags = {
     Environment = "lab"
     ManagedBy   = "Spacelift"
+    Owner       = "DevOpsTeam"
   }
 }
